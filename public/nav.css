@@ -1,0 +1,42 @@
+/* src/components/NavigationMenu.css */
+
+.navigation-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.logo img {
+  width: 100px; /* Adjust logo size as needed */
+  height: auto;
+}
+
+.menu-items {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-items li {
+  margin-right: 20px;
+}
+
+.menu-items li:last-child {
+  margin-right: 0;
+}
+
+.menu-items li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.contact-button {
+  background-color: #6FBF46;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
